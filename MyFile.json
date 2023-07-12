@@ -1,0 +1,10 @@
+{
+	"Name":"Sukhmeet Singh",
+	"Mobile":9988899879,
+	"City":"Batala",
+	"Course":["Dart","Flutter","Kotlin","Android"],
+	"Address":{
+		"Area":"Kot kuljas rai",
+		"Pin":143505
+	}
+}

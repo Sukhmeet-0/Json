@@ -1,0 +1,16 @@
+{
+	"Name":"sukhmeet singh",
+	"Marks":99,
+	"Date":"2024-09-01",
+	"Courses":["Dart","Kotlin","Flutter"],
+	"Address":{
+		"Area":"Kot kuljas rai",
+		"City":"Batala",
+		"Pin":143505,
+		"Long":30.4224
+		"Lat":35.3342
+
+	},
+	"Married":false,
+	"DOD":null
+}

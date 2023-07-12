@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Accessing json object nested value</h2>
+    <div id="myid">
+
+    </div>
+    <script>
+        var obj={
+            "name":"raj",
+            "mobile":9988899879,
+            "city":"Batala",
+            "course":{
+                "course1":"PHP",
+                "course2":"Java",
+                "course3":"Cpp"
+            }
+        };
+        c1=obj.course.course1;
+        c2=obj.course.course2;
+        c3=obj.course.course3;
+
+        c11=obj.course["course3"];
+        document.getElementById("myid").innerHTML+=c1+" "+c2+" "+c3+" "+c11+"<br>";
+        for(i in obj.course){
+           
+            document.getElementById("myid").innerHTML+=obj.course[i]+"<br>";
+        }
+    </script>
+</body>
+</html>
