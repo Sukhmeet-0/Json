@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Json Array using loop
+    <div id="myid">
+
+    </div>
+    <script>
+        var obj,i,x="";
+         obj={
+            "name":"raj",
+            "mobile":9988899879,
+            "city":"Batala",
+            "course":{
+                "course1":"PHP",
+                "course2":"Java",
+                "course3":"Cpp"
+            }
+        };
+        for(i in obj.course){
+            x+=obj.course[i]+"<br>";
+        }
+        document.getElementById("myid").innerHTML=x;
+    </script>
+</body>
+</html>

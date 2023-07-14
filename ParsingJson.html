@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Parsing Json string to javascript object using JSON.parse method
+    <div id="myid"></div>
+    <script>
+        var obj=`{"name":"sukhmeet","mobile":9988899879,"city":"delhi","dob":"2001-09-01"}`
+        var data=JSON.parse(obj);
+        var name=data.name;
+        var date =new Date(data.dob);
+        var str=JSON.stringify(obj);
+        document.getElementById("myid").innerHTML=name+" "+date+"\n"+str;
+    </script>
+
+</body>
+</html>
